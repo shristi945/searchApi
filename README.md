@@ -46,5 +46,8 @@ Note: output appears after 3 sec of time sleep if the keyword is search for the 
  Future Scope:
   
  1: Can cache multiple parameters
+  
  2: Can fix the size of the cache to restrict memory usage
+  
  3: Instead of using LRU Cache, can use flask-cachig techniques like redis caching or memcached
+  
