@@ -42,3 +42,9 @@ $ 9081174698
 
 Note: output appears after 3 sec of time sleep if the keyword is search for the first time, next time if there is request made with previously search           keyword then it will appear immediately, as the request and response pair is cached for the same run with a max cache memory size of 128 words  
   
+
+ Future Scope:
+  
+ 1: Can cache multiple parameters
+ 2: Can fix the size of the cache to restrict memory usage
+ 3: Instead of using LRU Cache, can use flask-cachig techniques like redis caching or memcached
