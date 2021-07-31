@@ -14,7 +14,7 @@ $ python test.py
 
 Or hit the API endpoint
 
-3: API endpoint:  http://127.0.0.1:5000/find/freq/<single word argument here>
+3: API endpoint:  http://127.0.0.1:5000/find/freq/<single word argument here> -> the output of the endpoint is the frequency of a word in a text corpus
   
 $ First time requesting for search keyword 'a' 
   
