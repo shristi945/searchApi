@@ -3,7 +3,7 @@
 1: How to setup:
 
 Use virtual environment created by pipenv
-Intsall pipenv on your system
+Install pipenv on your system
 $ pipenv install
 $ pipenv shell
 
