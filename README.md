@@ -17,9 +17,7 @@ Or hit the API endpoint
 3: API endpoint:  http://127.0.0.1:5000/find/freq/<single word argument here>
   
 $ First time requesting for search keyword 'a' 
-  
 $ 9081174698
-  
 $ Second time requesting for search keyword 'a' 
 $ 9081174698
 $ First time requesting for search keyword 'hello' 
