@@ -7,8 +7,9 @@ import time
 app = Flask(__name__)
 
 
+# api exposed to search frequency for a keyword
 @app.route('/find/freq/<string:word>', methods=['GET'])
-@lru_cache()
+@lru_cache()  # in-built LRU Cache is being used
 def get_word_freq(word):
     print("Api Called!")
 
